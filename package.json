@@ -1,0 +1,36 @@
+{
+  "name": "read-md",
+  "version": "0.0.0",
+  "description": "Pretty prints markdown in the terminal given a gituhub username/repo",
+  "author": {
+    "name": "Cesar Ferreira",
+    "email": "cesar.manuel.ferreira@gmail.com",
+    "url": "http://cesarferreira.com"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*",
+    "start": "node index.js",
+    "test": "xo"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "node-read-url": "^1.0.0",
+    "node-time-log": "^1.0.3",
+    "update-notifier": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "xo": "^0.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarferreira/read-md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cesarferreira/read-md/issues"
+  },
+  "homepage": "https://github.com/cesarferreira/read-md#readme",
+  "license": "MIT"
+}
