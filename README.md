@@ -1,5 +1,5 @@
 # read-md
-> Pretty prints markdown in the terminal given a gituhub username/repo
+> Pretty prints markdown in the terminal given a github username/repo Edit
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/cesarferreira/assets/master/images/screenshot_terminal_hello_world.png" width="100%" />
@@ -12,13 +12,13 @@
 ## Install
 
 ```sh
-yarn add read-md
+npm install -g read-md
 ```
 
 ## Usage
 
-```js
-// todo
+```bash
+read-md cesarferreira/dryrun
 ```
 
 ## Created by

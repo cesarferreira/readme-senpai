@@ -1,15 +1,15 @@
 {
   "name": "read-md",
   "version": "0.0.0",
-  "description": "Pretty prints markdown in the terminal given a gituhub username/repo",
+  "description": "Pretty prints markdown in the terminal given a github username/repo",
   "author": {
     "name": "Cesar Ferreira",
     "email": "cesar.manuel.ferreira@gmail.com",
     "url": "http://cesarferreira.com"
   },
   "scripts": {
+    "start": "node example.js",
     "lint": "eslint src/**/*",
-    "start": "node index.js",
     "test": "xo"
   },
   "main": "index.js",
@@ -17,8 +17,7 @@
   "dependencies": {
     "chalk": "^2.0.1",
     "node-read-url": "^1.0.0",
-    "node-time-log": "^1.0.3",
-    "update-notifier": "^2.2.0"
+    "node-time-log": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
