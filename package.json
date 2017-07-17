@@ -16,6 +16,8 @@
   "keywords": [],
   "dependencies": {
     "chalk": "^2.0.1",
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0",
     "node-read-url": "^1.0.0",
     "node-time-log": "^1.0.3"
   },
