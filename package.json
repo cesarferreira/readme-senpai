@@ -13,6 +13,9 @@
     "test": "xo"
   },
   "main": "index.js",
+  "bin": {
+    "readme-senpai": "./cli.js"
+  },
   "keywords": [],
   "dependencies": {
     "chalk": "^2.0.1",
