@@ -1,5 +1,5 @@
 {
-  "name": "read-md",
+  "name": "readme-senpai",
   "version": "0.0.0",
   "description": "Pretty prints markdown in the terminal given a github username/repo",
   "author": {
@@ -8,7 +8,7 @@
     "url": "http://cesarferreira.com"
   },
   "scripts": {
-    "start": "node example.js",
+    "start": "node cli.js",
     "lint": "eslint src/**/*",
     "test": "xo"
   },
@@ -16,10 +16,10 @@
   "keywords": [],
   "dependencies": {
     "chalk": "^2.0.1",
+    "github-readme-getter": "^1.0.1",
     "marked": "^0.3.6",
     "marked-terminal": "^2.0.0",
-    "node-read-url": "^1.0.0",
-    "node-time-log": "^1.0.3"
+    "meow": "^3.7.0"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cesarferreira/read-md.git"
+    "url": "https://github.com/cesarferreira/readme-senpai.git"
   },
   "bugs": {
-    "url": "https://github.com/cesarferreira/read-md/issues"
+    "url": "https://github.com/cesarferreira/readme-senpai/issues"
   },
-  "homepage": "https://github.com/cesarferreira/read-md#readme",
+  "homepage": "https://github.com/cesarferreira/readme-senpai#readme",
   "license": "MIT"
 }
