@@ -10,11 +10,9 @@ const cli = meow(`
 	  🌈 unicorns 🌈
 `, {});
 
-if (cli.input.length !== 1) {
-	cli.showHelp(2);
-} else if (cli.input[0].split('/').length !== 2) {
-	cli.showHelp(2);
-} else {
+if (cli.input.length === 1) {
 	const csv = cli.input[0].split('/');
 	readme.download(csv[0], csv[1]);
+} else {
+	cli.showHelp(2);
 }
