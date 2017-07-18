@@ -1,6 +1,6 @@
 {
   "name": "readme-senpai",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pretty prints markdown in the terminal given a github username/repo",
   "author": {
     "name": "Cesar Ferreira",
