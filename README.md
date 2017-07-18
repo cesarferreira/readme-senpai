@@ -2,7 +2,7 @@
 > Pretty prints markdown in the terminal given a github username/repo Edit
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cesarferreira/assets/master/images/screenshot_terminal_hello_world.png" width="100%" />
+  <img src="ss.png" width="100%" />
 </p>
 
 [![Build Status](https://travis-ci.org/cesarferreira/readme-senpai.svg?branch=master)](https://travis-ci.org/cesarferreira/readme-senpai)
