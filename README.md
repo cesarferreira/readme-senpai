@@ -1,5 +1,5 @@
 # readme-senpai
-> Pretty prints markdown in the terminal given a github username/repo Edit
+> Pretty prints markdown in the terminal given a github username/repo
 
 <p align="center">
   <img src="ss.png" width="100%" />
